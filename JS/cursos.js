@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     btnAcceder.forEach(button =>{
         button.addEventListener('click', ()=>{
-            window.location.href = "HTML/perfil.html"; 
+            window.location.href = "..HTML/perfil.html"; 
         })
     })
 });
