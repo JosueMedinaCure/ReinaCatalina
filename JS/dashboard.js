@@ -21,7 +21,7 @@ function acceder() {
     // Iteramos sobre cada botón para asignarle el evento 'click'
     btnModules.forEach(button => {
         button.addEventListener('click', () => {
-            window.location.href = "/HTML/cursos.html"; // Redirigimos a la página de cursos
+            window.location.href = "HTML/cursos.html"; // Redirigimos a la página de cursos
             console.log("Click en un módulo"); // Mensaje en la consola
         });
     });

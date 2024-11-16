@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', () => {
             
             // Validación de usuario y contraseña
             if (username === "root" && password === "root") {
-                window.location.href = "/HTML/dashboard.html";  // Redirige a dashboard si las credenciales son correctas
+                window.location.href = "HTML/dashboard.html";  // Redirige a dashboard si las credenciales son correctas
             } else {
                 alert("Usuario o contraseña incorrectos");  // Muestra alerta si las credenciales son incorrectas
             }
