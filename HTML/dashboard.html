@@ -10,12 +10,11 @@
 
     <!-- Encabezado de la plataforma con el nombre y menú de navegación -->
     <header class="header">
-        <div class="logo">
-            <img src="/IMG/LogoReinaCat2.png" alt="Clínica Reina Catalina">
-        </div>
+        <a href="/HTML/dashboard.html"><div class="logo"><img src="/IMG/LogoReinaCat2.png" alt="Clínica Reina Catalina"></div></a>
+
         <nav class="navbar">
             <ul class="nav-list">
-                <li><a href="#profile" class="nav-link">Perfil</a></li>
+                <li><a href="perfil.html" class="nav-link">Perfil</a></li>
                 <li><a href="#training" class="nav-link">Capacitaciones</a></li>
                 <li><a href="#progress" class="nav-link">Progreso</a></li>
                 <!-- <li><a href="#help" class="nav-link">Centro de Ayuda</a></li> -->
@@ -54,19 +53,19 @@
                     <img src="https://kalstein.co/wp-content/uploads/2023/07/YR05165-IMG.jpg" alt="">
                     <h3>Uso y Cuidado de Bomba de Infusión</h3>
                     <p>Estado: Completado</p>
-                    <button class="btn">Revisar</button>
+                    <button class="btn btn-modules" id="btn-bomba-infusion">Revisar</button>
                 </div>
                 <div class="module-card">
                     <img src="https://www.anahuac.mx/mexico/sites/default/files/styles/webp/public/noticias/Monitor-cardiaco-que-es-y-como-funciona.jpg.webp?itok=w_ctUUEg" alt="">
                     <h3>Uso y Cuidado de Monitor de Signos Vitales</h3>
                     <p>Estado: En progreso</p>
-                    <button class="btn">Continuar</button>
+                    <button class="btn btn-modules" id="btn-signos-vitales">Continuar</button>
                 </div>
                 <div class="module-card">
                     <img src="https://media.istockphoto.com/id/1297985743/es/foto/el-m%C3%A9dico-est%C3%A1-dando-un-desfibrilador-para-salvar-la-vida-del-paciente-en-el-hospital.jpg?s=612x612&w=0&k=20&c=5IllJnUzlrnTyXPuh7nxd3Ri3vRAW2f9Mkrz_Eyo_KM=" alt="">
                     <h3>Uso y Cuidado de Desfibrilador</h3>
                     <p>Estado: No iniciado</p>
-                    <button class="btn">Iniciar</button>
+                    <button class="btn btn-modules" id="btn-defibrilador">Iniciar</button>
                 </div>
             </div>
         </section>

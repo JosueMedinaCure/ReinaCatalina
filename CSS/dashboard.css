@@ -47,6 +47,7 @@ p{
 .logo img {
     height: 80px;
     background-color: #fff;
+    border-radius: 100%;
 }
 
 .navbar .nav-list {
@@ -82,6 +83,7 @@ p{
     background-image: url(/IMG/imgReinaCat1.jpg);
     align-content: center;
     height: 70dvh;
+    border-radius: 12px 12px 0px 0px;
 }
 .welcome-section div{
     position: absolute;

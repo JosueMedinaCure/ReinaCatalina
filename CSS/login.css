@@ -9,6 +9,7 @@
 /* Estilos generales del cuerpo para centrar el contenido en la pantalla */
 body {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 100vh;

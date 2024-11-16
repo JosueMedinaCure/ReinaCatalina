@@ -13,3 +13,19 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     });
 });
+
+// Seleccionamos todos los botones con la clase '.btn-modules'
+const btnModules = document.querySelectorAll('.btn-modules');
+
+function acceder() {
+    // Iteramos sobre cada botón para asignarle el evento 'click'
+    btnModules.forEach(button => {
+        button.addEventListener('click', () => {
+            window.location.href = "/HTML/cursos.html"; // Redirigimos a la página de cursos
+            console.log("Click en un módulo"); // Mensaje en la consola
+        });
+    });
+}
+
+// Llamamos a la función para activar los eventos
+acceder();

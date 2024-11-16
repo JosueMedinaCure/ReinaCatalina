@@ -1,0 +1,126 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos para el cuerpo */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f9; /* Fondo general */
+    color: #333; /* Texto principal */
+    line-height: 1.6;
+    display: grid;
+    min-height: 100dvh;
+    grid-template-rows: 
+    auto 1fr auto;
+
+}
+
+
+.btn {
+    background-color: #800020;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #a30028;
+}
+
+/* Encabezado */
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #800020; /* Color vinotinto */
+    padding: 1rem 2rem;
+    color: #fff;
+    height: 6rem;
+}
+
+.logo img {
+    height: 80px;
+    background-color: #fff;
+    border-radius: 100%;
+}
+
+.header h1 {
+    font-size: 2rem;
+}
+
+/* Sección principal */
+#modules {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+#modules h2 {
+    text-align: center;
+    color: #800020; /* Color vinotinto */
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+}
+
+#modules p {
+    text-align: left;
+    margin-bottom: 2rem;
+    font-size: 1rem;
+}
+
+/* Estilos para cada módulo */
+.module {
+    margin-bottom: 1rem;
+}
+
+/* Título del acordeón */
+.accordion-title {
+    cursor: pointer;
+    padding: 0.8rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+    background-color: #800020; /* Fondo vinotinto */
+    color: #fff; /* Texto blanco */
+    border-radius: 4px;
+    transition: background 0.3s ease;
+}
+
+.accordion-title:hover {
+    background-color: #a30028; /* Cambiar color al pasar el mouse */
+}
+
+/* Contenido del acordeón */
+.accordion-content {
+    display: none; /* Oculto por defecto */
+    padding: 0.8rem;
+    font-size: 1rem;
+    color: #333;
+    background-color: #f9f9f9; /* Fondo claro */
+    border-left: 4px solid #800020; /* Línea de color para resaltar */
+    margin-top: 0.5rem;
+    border-radius: 4px;
+}
+
+/* Mostrar contenido activo */
+.accordion-content.active {
+    display: block; /* Mostrar contenido cuando está activo */
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    background-color: #800020; /* Fondo vinotinto */
+    color: #fff; /* Texto blanco */
+    padding: 1rem;
+    margin-top: 2rem;
+}
+
+.footer p {
+    font-size: 0.9rem;
+}
